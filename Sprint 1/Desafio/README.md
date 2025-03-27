@@ -39,18 +39,18 @@ O modelo dimensional foi estruturado para otimizar a análise de dados.
 - **Fato_Locacao** (idLocacao, idCliente, idCarro, idCombustivel, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega)
 
 ---
-## 📌 Etapas do Projeto
-### 🔵 **1. Normalização**
+## Etapas do Projeto
+###  **1. Normalização**
 - Eliminamos redundâncias separando informações repetitivas em tabelas individuais.
 - Criamos chaves estrangeiras para manter a integridade dos dados.
 
-### 🟠 **2. Conversão para Modelo Dimensional**
+###  **2. Conversão para Modelo Dimensional**
 - Organizamos os dados para facilitar análises e relatórios.
 - Criamos tabelas dimensão para armazenar detalhes descritivos.
 - Criamos a tabela fato, que centraliza os eventos de locação.
 
 ---
-## 📂 Como Usar
+## Como Usar
 ### **1. Configuração**
 1. Instale o **SQLite** (caso não tenha instalado).
 2. Utilize o **DB Browser for SQLite** ou **DBeaver** para visualizar e manipular o banco de dados.
@@ -69,7 +69,7 @@ INSERT INTO Vendedor VALUES (1, 'Carlos', 1, 'SP');
 INSERT INTO Locacao VALUES (1, 1, 1, 1, 1, '2024-03-01', '10:00:00', 3, 150.00, '2024-03-04', '12:00:00');
 ```
 
-🔹 **Desenvolvido por:** Fernando Teixeira
-🔹 **Contato:** fernando.tx@outlook.com
+ **Desenvolvido por:** Fernando Teixeira
+ **Contato:** fernando.tx@outlook.com
 
 
