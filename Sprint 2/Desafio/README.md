@@ -20,8 +20,3 @@ Esperamos que haja, minimamente:
     ```
     Obtive esse retorno
     ![amostra](../Evidencias/sample.webp)
-
-
-
-
-
