@@ -1,5 +1,7 @@
 ## Apresentação
 
+![amostra](perfil.jpeg)
+
 Olá, sou Fernando Teixeira, moro na cidade de Fortaleza - CE, estudo na instituição de ensino UNICESUMAR, curso SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS, atualmente no 4º semestre e não possuo experiências na àrea de tecnologia.
 Meus hobbies preferidos são praticar exercícios físicos na academia, tocar piano, estudar programação na àrea que eu mais gosto (Data Science) e compartilhar momentos com minha família.
 
