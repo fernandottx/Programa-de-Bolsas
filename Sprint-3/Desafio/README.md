@@ -341,19 +341,15 @@
 
     ![Docker-Image](../Evidencias/desafio/etapa-3/d2.png)
 
-    Foram criados os arquivos "respostas.txt", "Q4.png" e "Q5.png", como mostra esse antes e depois, respectivamente:
+    Foi criado o arquivo "csv_limpo.csv", como mostra esse antes e depois, respectivamente:
 
     ![Antes](../Evidencias/desafio/etapa-3/antes.png)
 
     ![Depois](../Evidencias/desafio/etapa-3/depois.png)
 
-    E estes são os conteúdos dos arquivos "respostas.txt", "Q4.png" e "Q5.png", respectivamente:
+    E este é o conteúdo do arquivo "csv_limpo.csv":
 
-    ![1](../Evidencias/desafio/etapa-2/1.png)
-
-    ![Q4](../Desafio/etapa-2/Q4.png)
-
-    ![Q5](../Desafio/etapa-2/Q5.png)
+    ![1](../Evidencias/desafio/etapa-1/1.png)
 ---
 
 4. ... [Etapa IV](etapa-4)
