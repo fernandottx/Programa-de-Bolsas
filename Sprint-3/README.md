@@ -56,7 +56,7 @@
 
 
 1. ...
-[Resposta Python do Exercício(Etapa-1).](./Exercicios/etapa-1/canguru.py)
+[Resposta Python do Exercício(Etapa-1).](./Exercicios/etapa-1/carguru.py)
 
 
 2. ...
