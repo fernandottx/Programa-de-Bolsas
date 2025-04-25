@@ -64,7 +64,7 @@
 
 
 3. ...
-[Resposta Python do Exercício(Etapa-2).](./Exercicios/etapa-1/mascarar.py)
+[Resposta Python do Exercício(Etapa-2).](./Exercicios/etapa-2/mascarar.py)
 
 
 4. ...
