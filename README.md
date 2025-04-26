@@ -60,11 +60,11 @@ Meus hobbies preferidos são praticar exercícios físicos na academia, tocar pi
 
 <div align="center">
     
-[Sprint 1](/Sprint%201/README.md)
+[Sprint 1](./Sprint-1)
 
-[Sprint 2](/Sprint%202/README.md)
+[Sprint 2](./Sprint-2)
 
-[Sprint 3](/Sprint%203/README.md)
+[Sprint 3](./Sprint-3)
 
 ...
 
