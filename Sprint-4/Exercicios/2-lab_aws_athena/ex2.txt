@@ -1,0 +1,21 @@
+WITH nomes_filtrados AS (
+    SELECT 
+        nome,
+        ((ano / 10) * 10) AS decada,
+        SUM(total) AS total_decada
+    FROM nomes
+    WHERE ano >= 1950
+    GROUP BY nome, ((ano / 10) * 10)
+),
+ranked_nomes AS (
+    SELECT 
+        nome,
+        decada,
+        total_decada,
+        RANK() OVER (PARTITION BY decada ORDER BY total_decada DESC) AS posicao
+    FROM nomes_filtrados
+)
+SELECT nome, decada, total_decada
+FROM ranked_nomes
+WHERE posicao <= 3
+ORDER BY decada, posicao;
