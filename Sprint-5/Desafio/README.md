@@ -165,12 +165,12 @@
 
     <h3>Análises Realizadas:</h3>
 
-    ⁃ ANÁLISE 1 - Total de consultas de todo o período por especialidade para crianças e idosos do sexo feminino de todos os municípios da região Nordeste.
+    ⁃ Análise 1: Total de consultas de todo o período por especialidade para mulheres menores que 30 anos de todos os municípios.
 
-    Envolve uso de dois operadores lógicos "(&) e (|)" e uma função de agregação "(groupby + size())".
+    Envolve uso de dois operadores lógicos "(&)" e uma função de agregação "(groupby + size())".
 
     ```
-    filtro = (df['sexo'] == 'F') & ((df['idade'] <= 12) | (df['idade'] >= 60))
+    filtro = (df['sexo'] == 'F') & (df['idade'] < 30)
     analise1 = df[filtro].groupby('especialidade').size().reset_index(name='total_consultas')
     ```
 
@@ -187,7 +187,7 @@
     )
     ```
 
-    ⁃ Análise 2: Conversão da idade para float e classificação por faixa etária de homens e mulheres de todo o período de todos os municípios da região Nordeste
+    ⁃ Análise 2: Conversão da idade para float e classificação por faixa etária de homens e mulheres de todo o período de todos os municípios
 
     Utiliza uma função condicional "(np.where)" e uma função de conversão "(astype(float))".
 
@@ -209,15 +209,15 @@
     )
     ```
 
-    ⁃ Análise 3: Consultas de março com especialidade contendo 'urologia' para homens e mulheres de todos os municípios da região Nordeste
+    ⁃ Análise 3: Consultas de março com especialidade contendo 'urologia' para homens e mulheres de todos os municípios
 
-    Envolve uma função de data "(dt.month)" e uma função de string "(str.strip())".
+    Envolve uma função de data "(dt.month)" e uma função de string "(str.contains())".
 
     ```
     df['data'] = pd.to_datetime(df['data'])
     df_marco_urologia = df[
     (df['data'].dt.month == 3) &
-    (df['especialidade'].str.strip() == 'UROLOGIA')
+    (df['especialidade'].str.contains("UROLOGIA"))
     ].reset_index()
     analise3 = df_marco_urologia[['data', 'especialidade']]
     ```
