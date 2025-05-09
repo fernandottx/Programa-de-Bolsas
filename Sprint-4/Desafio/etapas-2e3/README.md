@@ -1,6 +1,6 @@
 # Análise de Dados – Consultas Ambulatoriais
 
-Este projeto realiza três análises exploratórias sobre uma base de dados contendo informações de **consultas médicas ambulatoriais** da região Nordeste, armazenada em um bucket AWS S3.
+Este projeto realiza três análises exploratórias sobre uma base de dados contendo informações de **consultas médicas ambulatoriais** da região Nordeste entre Janeiro e Março de 2024, armazenada em um bucket AWS S3.
 
 A base inclui os seguintes campos:
 - `especialidade`
