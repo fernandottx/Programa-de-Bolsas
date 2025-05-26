@@ -1,0 +1,16 @@
+Q1:
+
+      Artist  Appearances  Average Actual Gross
+Taylor Swift            4           381518786.5
+
+Q2:
+
+ Rank  Actual gross  Adjusted gross (in 2022 dollars)  Artist             Tour title  Shows  Average gross  Start year  End year
+    2   579800000.0                       579800000.0 Beyoncé Renaissance World Tour     56     10353571.0        2023      2023
+
+Q3:
+
+      Artist              Tour title  Adjusted gross per show
+Taylor Swift           The Eras Tour             1.392857e+07
+     Beyoncé  Renaissance World Tour             1.035357e+07
+Taylor Swift Reputation Stadium Tour             7.600846e+06

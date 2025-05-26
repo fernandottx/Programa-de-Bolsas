@@ -1,0 +1,6 @@
+arq = sc.textFile('README.md')
+palavras = arq.flatMap(lambda linha: linha.split())
+pares = palavras.map(lambda palavra: (palavra.lower(), 1))
+contagem = pares.reduceByKey(lambda a, b: a + b)
+ordenado = contagem.sortBy(lambda par: par[1], ascending=False)
+for palavra, contagem in ordenado.collect(): print(f'{palavra}: {contagem}')

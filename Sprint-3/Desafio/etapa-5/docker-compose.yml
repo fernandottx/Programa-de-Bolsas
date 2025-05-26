@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  etl-service:
+    build:
+      context: ./etl              # Usa o Dockerfile da pasta etl
+    container_name: etl-container            # Cria um nome para o container
+    working_dir: /app            # Define o diretório padrão do container
+    command: ["python", "etl.py"]     # Executa o script etl.py
+    volumes:
+      - ./volume:/app/volume          # Monta a pasta local ./volume no caminho /app/volume do container
+
+  job-service:
+    build:
+      context: ./job                # Usa o Dockerfile da pasta job
+    container_name: job-container            # Cria um nome para o container
+    working_dir: /app            # Define o diretório padrão do container
+    command: ["python", "job.py"]     # Executa o app que usa o CSV limpo
+    volumes:
+      - ./volume:/app/volume          # Monta a pasta local ./volume no caminho /app/volume do container
+    depends_on:
+      - etl-service                   # Garante que o etl rode antes do job
