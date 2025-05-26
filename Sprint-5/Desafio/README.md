@@ -133,7 +133,7 @@
     - `idiomas_falados`, `paises_producao`, `empresas_producao`, `colecao`
     - `diretor`, `atores_principais`, `genero_feminino_presente`
 
-    ## 🧱 Lambda Layer (Requisitos)
+    ## Lambda Layer (Requisitos)
 
     Crie uma **Lambda Layer** contendo a biblioteca `requests`.
 
