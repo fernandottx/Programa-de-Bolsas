@@ -85,3 +85,21 @@ Todos os dados foram salvos em Parquet no S3, otimizados para análise.
 - Criação de análises específicas de elenco técnico por gênero e popularidade.
 
 - Modelo replicável para outros domínios (ex: música, livros, esportes).
+
+## Certificados
+
+### Amazon EMR Getting Started (Português)
+
+![Curso A](./Certificados/1.png)
+
+### Getting Started with Amazon Redshift (Português)
+
+![Curso B](./Certificados/2.png)
+
+### AWS Database Offerings (Português)
+
+![Curso C](./Certificados/3.png)
+
+### AWS Technical Essentials (Português)
+
+![Curso D](./Certificados/4.png)
