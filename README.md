@@ -74,6 +74,8 @@ Meus hobbies preferidos são praticar exercícios físicos na academia, tocar pi
 
 [Sprint 7](/Sprint-7/README.md)
 
+[Sprint 8](/Sprint-8/README.md)
+
 ...
 
 </div>
