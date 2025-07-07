@@ -66,6 +66,10 @@ Este laboratório demonstrou como o QuickSight pode ser aplicado para:
 
 - Apresentações com storytelling, guiando o usuário de forma visual por insights
 
+## Evidências
+
+![Curso A](./Evidencias/Lab/1.png)
+
 ## Certificados
 
 ### Generative BI with Amazon Q in Quicksight - Getting Started (Português)
